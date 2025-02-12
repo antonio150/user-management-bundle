@@ -1,0 +1,3 @@
+services:
+    Navira\UserManagementBundle\Service\RoleManager:
+        arguments: ['@doctrine.orm.entity_manager']

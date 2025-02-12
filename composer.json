@@ -1,0 +1,23 @@
+{
+    "name": "antonio150/user-management-bundle",
+    "description": "Un bundle Symfony pour l'upload d'images",
+    "type": "symfony-bundle",
+    "autoload": {
+        "psr-4": {
+            "UploadImageBundle\\": "src/"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/antonio150/user-management-bundle.git"
+        }
+    ],
+    
+    "require": {
+        "php": ">=8.1",
+        "symfony/framework-bundle": "^5.0 || ^6.0 || ^7.0"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

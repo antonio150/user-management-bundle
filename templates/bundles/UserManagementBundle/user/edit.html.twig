@@ -1,0 +1,11 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+<h2>Modifier l'utilisateur</h2>
+<form method="post">
+    <label>Ajouter un rôle :</label>
+    <input type="text" name="role">
+    <button type="submit">Ajouter</button>
+</form>
+<a href="{{ path('user_management_index') }}">Retour</a>
+{% endblock %}
